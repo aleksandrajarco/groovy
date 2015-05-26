@@ -45,7 +45,6 @@ public class Application{
 	Integer delete
 	File file
 
-	//static file=new File("/home/ola/Desktop/groovyApp/data.txt")
 
 	def swing = new SwingBuilder()
 

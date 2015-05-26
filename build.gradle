@@ -1,0 +1,13 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+repositories {
+mavenCentral()
+maven {
+url 'https://oss.sonatype.org' +
+'/content/repositories/snapshots'
+}
+}
+dependencies {
+compile 'org.codehaus.groovy:groovy-all:2.1.6'
+testCompile 'junit:junit:4.+'
+}
